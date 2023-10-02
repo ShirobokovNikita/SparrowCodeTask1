@@ -9,8 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        let height: CGFloat = 50 
-        let opacity = 0.8
+        let height: CGFloat = 50
+        let opacity = 1.0
         VStack {
             TabView {
                 ZStack {
