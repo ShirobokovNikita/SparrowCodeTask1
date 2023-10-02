@@ -12,24 +12,23 @@ struct ContentView: View {
         VStack {
             TabView {
                 ZStack {
+                    ScrollView {
+                            VStack {
+                                ForEach(1..<80) { index in
+                                    Text("\(index)")
+                                        .frame(maxWidth: .infinity)
+                                }
+                            }
+                        }
+                    .contentMargins(.bottom, 50, for: .scrollIndicators)
                     VStack {
                         Spacer()
                         Rectangle()
                             .fill(Color.red)
                             .frame(height: 50)
-                            .zIndex(-1)
+                            .opacity(0.8)
                     }
-                ScrollView {
-                        VStack {
-                            ForEach(1..<80) { index in
-                                Text("\(index)")
-//                                    .padding(.bottom, 10) // Добавляем отступ снизу для текста
-                                    .frame(maxWidth: .infinity)
-                            }
-                        }
-                        .padding(.bottom, 50) // Оставляем место для красного прямоугольника
-                    }
-                .contentMargins(.bottom, 50, for: .scrollIndicators)
+                
                 }
                 .tabItem {
                     Text("Button 1")
