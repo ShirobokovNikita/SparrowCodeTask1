@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        let height: CGFloat = 50 
+        let opacity = 0.8
         VStack {
             TabView {
                 ZStack {
@@ -19,14 +21,15 @@ struct ContentView: View {
                                         .frame(maxWidth: .infinity)
                                 }
                             }
+                            .padding(.bottom, height)
                         }
-                    .contentMargins(.bottom, 50, for: .scrollIndicators)
+                    .contentMargins(.bottom, height, for: .scrollIndicators)
                     VStack {
                         Spacer()
                         Rectangle()
                             .fill(Color.red)
-                            .frame(height: 50)
-                            .opacity(0.8)
+                            .frame(height: height)
+                            .opacity(opacity)
                     }
                 
                 }
