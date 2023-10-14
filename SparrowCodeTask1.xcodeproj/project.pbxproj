@@ -7,22 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E053A5502AC995BE00EA7482 /* SparrowCodeTask1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E053A54F2AC995BE00EA7482 /* SparrowCodeTask1App.swift */; };
-		E053A5522AC995BE00EA7482 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E053A5512AC995BE00EA7482 /* ContentView.swift */; };
-		E053A5542AC995C000EA7482 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E053A5532AC995C000EA7482 /* Assets.xcassets */; };
-		E053A5572AC995C000EA7482 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E053A5562AC995C000EA7482 /* Preview Assets.xcassets */; };
+		E053A5872AC996DA00EA7482 /* SparrowCodeTask1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E053A5862AC996DA00EA7482 /* SparrowCodeTask1App.swift */; };
+		E053A5892AC996DA00EA7482 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E053A5882AC996DA00EA7482 /* ContentView.swift */; };
+		E053A58B2AC996DC00EA7482 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E053A58A2AC996DC00EA7482 /* Assets.xcassets */; };
+		E053A58E2AC996DC00EA7482 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E053A58D2AC996DC00EA7482 /* Preview Assets.xcassets */; };
+		E067C2A22ADACAF700984A26 /* SparrowVariant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E067C2A12ADACAF700984A26 /* SparrowVariant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E053A54C2AC995BE00EA7482 /* SparrowCodeTask1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparrowCodeTask1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E053A54F2AC995BE00EA7482 /* SparrowCodeTask1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparrowCodeTask1App.swift; sourceTree = "<group>"; };
-		E053A5512AC995BE00EA7482 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E053A5532AC995C000EA7482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E053A5562AC995C000EA7482 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E053A5832AC996DA00EA7482 /* SparrowCodeTask1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparrowCodeTask1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E053A5862AC996DA00EA7482 /* SparrowCodeTask1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparrowCodeTask1App.swift; sourceTree = "<group>"; };
+		E053A5882AC996DA00EA7482 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E053A58A2AC996DC00EA7482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E053A58D2AC996DC00EA7482 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E067C2A12ADACAF700984A26 /* SparrowVariant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparrowVariant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E053A5492AC995BE00EA7482 /* Frameworks */ = {
+		E053A5802AC996DA00EA7482 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +34,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E053A5432AC995BE00EA7482 = {
+		E053A57A2AC996DA00EA7482 = {
 			isa = PBXGroup;
 			children = (
-				E053A54E2AC995BE00EA7482 /* SparrowCodeTask1 */,
-				E053A54D2AC995BE00EA7482 /* Products */,
+				E053A5852AC996DA00EA7482 /* SparrowCodeTask1 */,
+				E053A5842AC996DA00EA7482 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E053A54D2AC995BE00EA7482 /* Products */ = {
+		E053A5842AC996DA00EA7482 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E053A54C2AC995BE00EA7482 /* SparrowCodeTask1.app */,
+				E053A5832AC996DA00EA7482 /* SparrowCodeTask1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E053A54E2AC995BE00EA7482 /* SparrowCodeTask1 */ = {
+		E053A5852AC996DA00EA7482 /* SparrowCodeTask1 */ = {
 			isa = PBXGroup;
 			children = (
-				E053A54F2AC995BE00EA7482 /* SparrowCodeTask1App.swift */,
-				E053A5512AC995BE00EA7482 /* ContentView.swift */,
-				E053A5532AC995C000EA7482 /* Assets.xcassets */,
-				E053A5552AC995C000EA7482 /* Preview Content */,
+				E053A5862AC996DA00EA7482 /* SparrowCodeTask1App.swift */,
+				E053A5882AC996DA00EA7482 /* ContentView.swift */,
+				E067C2A12ADACAF700984A26 /* SparrowVariant.swift */,
+				E053A58A2AC996DC00EA7482 /* Assets.xcassets */,
+				E053A58C2AC996DC00EA7482 /* Preview Content */,
 			);
 			path = SparrowCodeTask1;
 			sourceTree = "<group>";
 		};
-		E053A5552AC995C000EA7482 /* Preview Content */ = {
+		E053A58C2AC996DC00EA7482 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				E053A5562AC995C000EA7482 /* Preview Assets.xcassets */,
+				E053A58D2AC996DC00EA7482 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,13 +73,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E053A54B2AC995BE00EA7482 /* SparrowCodeTask1 */ = {
+		E053A5822AC996DA00EA7482 /* SparrowCodeTask1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E053A55A2AC995C000EA7482 /* Build configuration list for PBXNativeTarget "SparrowCodeTask1" */;
+			buildConfigurationList = E053A5912AC996DC00EA7482 /* Build configuration list for PBXNativeTarget "SparrowCodeTask1" */;
 			buildPhases = (
-				E053A5482AC995BE00EA7482 /* Sources */,
-				E053A5492AC995BE00EA7482 /* Frameworks */,
-				E053A54A2AC995BE00EA7482 /* Resources */,
+				E053A57F2AC996DA00EA7482 /* Sources */,
+				E053A5802AC996DA00EA7482 /* Frameworks */,
+				E053A5812AC996DA00EA7482 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +87,25 @@
 			);
 			name = SparrowCodeTask1;
 			productName = SparrowCodeTask1;
-			productReference = E053A54C2AC995BE00EA7482 /* SparrowCodeTask1.app */;
+			productReference = E053A5832AC996DA00EA7482 /* SparrowCodeTask1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E053A5442AC995BE00EA7482 /* Project object */ = {
+		E053A57B2AC996DA00EA7482 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					E053A54B2AC995BE00EA7482 = {
+					E053A5822AC996DA00EA7482 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = E053A5472AC995BE00EA7482 /* Build configuration list for PBXProject "SparrowCodeTask1" */;
+			buildConfigurationList = E053A57E2AC996DA00EA7482 /* Build configuration list for PBXProject "SparrowCodeTask1" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +113,43 @@
 				en,
 				Base,
 			);
-			mainGroup = E053A5432AC995BE00EA7482;
-			productRefGroup = E053A54D2AC995BE00EA7482 /* Products */;
+			mainGroup = E053A57A2AC996DA00EA7482;
+			productRefGroup = E053A5842AC996DA00EA7482 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E053A54B2AC995BE00EA7482 /* SparrowCodeTask1 */,
+				E053A5822AC996DA00EA7482 /* SparrowCodeTask1 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E053A54A2AC995BE00EA7482 /* Resources */ = {
+		E053A5812AC996DA00EA7482 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E053A5572AC995C000EA7482 /* Preview Assets.xcassets in Resources */,
-				E053A5542AC995C000EA7482 /* Assets.xcassets in Resources */,
+				E053A58E2AC996DC00EA7482 /* Preview Assets.xcassets in Resources */,
+				E053A58B2AC996DC00EA7482 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E053A5482AC995BE00EA7482 /* Sources */ = {
+		E053A57F2AC996DA00EA7482 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E053A5522AC995BE00EA7482 /* ContentView.swift in Sources */,
-				E053A5502AC995BE00EA7482 /* SparrowCodeTask1App.swift in Sources */,
+				E053A5892AC996DA00EA7482 /* ContentView.swift in Sources */,
+				E067C2A22ADACAF700984A26 /* SparrowVariant.swift in Sources */,
+				E053A5872AC996DA00EA7482 /* SparrowCodeTask1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		E053A5582AC995C000EA7482 /* Debug */ = {
+		E053A58F2AC996DC00EA7482 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,7 +212,7 @@
 			};
 			name = Debug;
 		};
-		E053A5592AC995C000EA7482 /* Release */ = {
+		E053A5902AC996DC00EA7482 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -264,7 +268,7 @@
 			};
 			name = Release;
 		};
-		E053A55B2AC995C000EA7482 /* Debug */ = {
+		E053A5922AC996DC00EA7482 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -293,7 +297,7 @@
 			};
 			name = Debug;
 		};
-		E053A55C2AC995C000EA7482 /* Release */ = {
+		E053A5932AC996DC00EA7482 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -325,25 +329,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E053A5472AC995BE00EA7482 /* Build configuration list for PBXProject "SparrowCodeTask1" */ = {
+		E053A57E2AC996DA00EA7482 /* Build configuration list for PBXProject "SparrowCodeTask1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E053A5582AC995C000EA7482 /* Debug */,
-				E053A5592AC995C000EA7482 /* Release */,
+				E053A58F2AC996DC00EA7482 /* Debug */,
+				E053A5902AC996DC00EA7482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E053A55A2AC995C000EA7482 /* Build configuration list for PBXNativeTarget "SparrowCodeTask1" */ = {
+		E053A5912AC996DC00EA7482 /* Build configuration list for PBXNativeTarget "SparrowCodeTask1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E053A55B2AC995C000EA7482 /* Debug */,
-				E053A55C2AC995C000EA7482 /* Release */,
+				E053A5922AC996DC00EA7482 /* Debug */,
+				E053A5932AC996DC00EA7482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E053A5442AC995BE00EA7482 /* Project object */;
+	rootObject = E053A57B2AC996DA00EA7482 /* Project object */;
 }

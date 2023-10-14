@@ -10,8 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         let height: CGFloat = 50
-        let opacity = 1.0
-        VStack {
+        let opacity = 0.5
             TabView {
                 ZStack {
                     ScrollView {
@@ -37,7 +36,6 @@ struct ContentView: View {
                     Text("Button 1")
                     Image(systemName: "1.circle")
                 }
-            }
         }
     }
 }
